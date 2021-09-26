@@ -91,7 +91,7 @@ export default {
 
                 const {error} = await postMovie(form)
 
-                if (error !== null) {
+                if (error.value !== null) {
                     errors.value = error.value
                 } else {
                     router.push({'name': 'Home'})

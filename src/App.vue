@@ -8,7 +8,7 @@
         </router-link>
       </h2>
       <h2 class="font-secondary text-xl font-semibold text-gray-100">
-        <router-link to="{name: 'Add'}">
+        <router-link :to="{name: 'Add'}">
           Add Movie 
         </router-link>
       </h2>
